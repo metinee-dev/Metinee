@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>พระราชกรณียกิจด้านการศึกษา รัชกาลที่ 6</title>
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-pink: #E91E63;
+            --light-pink: #FCE4EC;
+            --gold: #D4AF37;
+            --dark-gold: #AA8C2C;
+            --soft-yellow: #FFF9C4;
+            --text-dark: #2D3436;
+            --white: #FFFFFF;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Sarabun', sans-serif;
+            background-color: #f8f9fa;
+            color: var(--text-dark);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        /* Header Styles */
+        header {
+            background: linear-gradient(135deg, var(--primary-pink), var(--gold));
+            color: var(--white);
+            padding: 40px 20px;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            animation: fadeInDown 0.8s ease-out;
+        }
+
+        .header-icon {
+            font-size: 3rem;
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        header h1 {
+            font-size: 1.8rem;
+            margin-bottom: 5px;
+            font-weight: 700;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        /* Main Container */
+        .container {
+            max-width: 1000px;
+            margin: -30px auto 40px;
+            padding: 0 20px;
+        }
+
+        /* Summary Quote Section */
+        .royal-quote {
+            background: var(--white);
+            border-left: 8px solid var(--gold);
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+            margin-bottom: 30px;
+            animation: fadeInUp 0.8s ease-out;
+        }
+
+        .royal-quote blockquote {
+            font-style: italic;
+            font-size: 1.1rem;
+            color: #555;
+            margin-bottom: 10px;
+        }
+
+        .royal-quote cite {
+            display: block;
+            text-align: right;
+            font-weight: bold;
+            color: var(--primary-pink);
+        }
+
+        /* Grid Layout */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        /* Card Styles */
+        .card {
+            background: var(--white);
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            transition: all 0.3s ease;
+            border-top: 5px solid var(--primary-pink);
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 35px rgba(233, 30, 99, 0.15);
+        }
+
+        .card h3 {
+            color: var(--primary-pink);
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 1.25rem;
+        }
+
+        .card-icon {
+            width: 40px;
+            height: 40px;
+            background: var(--light-pink);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+        }
+
+        .card-content {
+            font-size: 0.95rem;
+            color: #636e72;
+        }
+
+        .card ul {
+            list-style: none;
+            margin-top: 10px;
+        }
+
+        .card ul li {
+            padding: 5px 0;
+            border-bottom: 1px dashed #eee;
+        }
+
+        .card ul li:last-child {
+            border-bottom: none;
+        }
+
+        /* Interactive Footer/Summary */
+        .summary-box {
+            margin-top: 40px;
+            background: var(--soft-yellow);
+            padding: 30px;
+            border-radius: 20px;
+            text-align: center;
+            border: 2px dashed var(--gold);
+        }
+
+        .summary-box h2 {
+            color: var(--dark-gold);
+            margin-bottom: 15px;
+        }
+
+        /* Animations */
+        @keyframes fadeInDown {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Responsive Adjustments */
+        @media (max-width: 600px) {
+            header h1 { font-size: 1.4rem; }
+            .container { margin-top: -20px; }
+            .card { padding: 20px; }
+        }
+
+        /* Highlight Color */
+        .highlight {
+            color: var(--primary-pink);
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <span class="header-icon">🎓</span>
+        <h1>พระราชกรณียกิจด้านการศึกษา</h1>
+        <p>พระบาทสมเด็จพระมงกุฎเกล้าเจ้าอยู่หัว (รัชกาลที่ 6)</p>
+        <p style="font-size: 0.9rem; margin-top: 10px; letter-spacing: 1px;">EDUCATION | KING RAMA VI</p>
+    </header>
+
+    <div class="container">
+        
+        <!-- Section 5: Royal Responsibility (Featured) -->
+        <div class="royal-quote">
+            <blockquote>
+                "นับเป็นความผิดของข้าเอง ที่ให้การศึกษาเขาไม่ถึงขีดดีพอ"
+            </blockquote>
+            <cite>— พระราชดำรัสสะท้อนความรับผิดชอบส่วนพระองค์ต่อการศึกษาของพสกนิกร</cite>
+            <p style="margin-top: 15px; font-size: 0.9rem;">
+                แรงบันดาลใจจากการปฏิรูปธงชาติสู่ <span class="highlight">ธงไตรรงค์</span> และการวางรากฐานความรู้เพื่อป้องกันความผิดพลาดจากความไม่รู้
+            </p>
+        </div>
+
+        <div class="grid">
+            <!-- Section 1 -->
+            <div class="card" onclick="this.classList.toggle('active')">
+                <h3>
+                    <div class="card-icon">🏛️</div>
+                    รากฐานประชาธิปไตย
+                </h3>
+                <div class="card-content">
+                    <p>ทรงตระหนักว่าประชาธิปไตยต้องอาศัย <span class="highlight">ความรู้ของประชาชน</span> เป็นสำคัญ</p>
+                    <ul>
+                        <li>ปลูกฝังความคิดผ่าน <strong>"ดุสิตธานี"</strong></li>
+                        <li>ทดลองให้เรียนรู้วิถีประชาธิปไตยก่อนใช้จริง</li>
+                        <li>มุ่งเน้นให้ราษฎรมีความรู้รอบด้านมิใช่เพียงการปกครอง</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Section 2 -->
+            <div class="card">
+                <h3>
+                    <div class="card-icon">🏫</div>
+                    โรงเรียนแทนวัดประจำรัชกาล
+                </h3>
+                <div class="card-content">
+                    <p>ทรงปรับเปลี่ยนโบราณราชประเพณีให้เข้ากับยุคสมัย</p>
+                    <ul>
+                        <li>สร้าง <span class="highlight">โรงเรียนมหาดเล็กหลวง</span> (วชิราวุธวิทยาลัย)</li>
+                        <li>ใช้โรงเรียนทำหน้าที่สถานศึกษาแทนวัดในอดีต</li>
+                        <li>ส่งเสริมศิลปวัฒนธรรมผ่านสถาปัตยกรรมไทยประยุกต์</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Section 3 -->
+            <div class="card">
+                <h3>
+                    <div class="card-icon">📚</div>
+                    ระบบการศึกษาแห่งชาติ
+                </h3>
+                <div class="card-content">
+                    <p>วางโครงสร้างตั้งแต่ขั้นพื้นฐานจนถึงระดับอุดมศึกษา</p>
+                    <ul>
+                        <li><span class="highlight">พ.ร.บ. ประถมศึกษา พ.ศ. 2465:</span> การศึกษาภาคบังคับครั้งแรก (7-14 ปี)</li>
+                        <li><span class="highlight">จุฬาลงกรณมหาวิทยาลัย:</span> สถาปนาเมื่อ พ.ศ. 2459 เป็นมหาวิทยาลัยแห่งแรก</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Section 4 -->
+            <div class="card">
+                <h3>
+                    <div class="card-icon">⚜️</div>
+                    กิจการลูกเสือและเสือป่า
+                </h3>
+                <div class="card-content">
+                    <p>เครื่องมือในการ <span class="highlight">"สร้างพลเมือง"</span> ที่มีคุณภาพ</p>
+                    <ul>
+                        <li>ฝึกระเบียบวินัย ความมานะ และความเสียสละ</li>
+                        <li>ปลูกฝังความกตัญญูต่อ ชาติ ศาสนา พระมหากษัตริย์</li>
+                        <li>เตรียมความพร้อมในการป้องกันประเทศ</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Summary Section -->
+        <div class="summary-box">
+            <h2>"กุญแจสำคัญสู่ความเป็นสากล"</h2>
+            <p>
+                การศึกษาในรัชสมัยของพระองค์มิใช่เพียงการเรียนหนังสือ 
+                แต่คือ <span class="highlight">ยุทธศาสตร์</span> ที่เชื่อมโยงการเมือง การป้องกันประเทศ 
+                และการสร้างชาติให้ทัดเทียมอารยประเทศอย่างยั่งยืน
+            </p>
+        </div>
+
+    </div>
+
+    <footer style="text-align: center; padding: 20px; color: #999; font-size: 0.8rem;">
+        สื่อการเรียนรู้พระราชกรณียกิจด้านการศึกษา รัชกาลที่ 6
+    </footer>
+
+    <script>
+        // Simple entry animation for cards
+        document.querySelectorAll('.card').forEach((card, index) => {
+            card.style.opacity = '0';
+            card.style.transform = 'translateY(20px)';
+            setTimeout(() => {
+                card.style.transition = 'all 0.5s ease-out';
+                card.style.opacity = '1';
+                card.style.transform = 'translateY(0)';
+            }, 200 * index);
+        });
+    </script>
+</body>
+</html>
